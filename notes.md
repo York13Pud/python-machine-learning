@@ -15,9 +15,26 @@ Reference: Learning started on Friday, first of July 2022 (01/07/2022).
 
 ![ML Types](/assets/images/notes/002-ml-types.png)
 
-- Supervised Learning: Using data that has structure / labels, such as a spreadsheet, CSV file or database.
-- Unsupervised Learning: Using data that has no defined structure / labels, such as a CSV file with no column names. ML will be used to create categories for the data and group up alike data points (clustering). It can also use multiple data points that can be used together to create associations that can be used by ML to make recommendations based on a number of data points.
-- Reinforcement: Teaching a model to learn by repeating something, such as playing a game until it gets good at it. Also called skill acquisition and real-time learning.
+### Supervised Learning
+
+Using data that has structure, such as a spreadsheet, CSV file or database and will attempt to label the data. There are two types:
+
+- Classification: Is this data one thing or another? Is binary (this or that - has or hasn't got heart disease) or has multiple classification possibilities (multiple labels (dog breads)).
+- Regression: Trying to predict a number. For example, the price of a house based on its attributes.
+
+### Unsupervised Learning
+
+Using data that has no defined structure / labels, such as a CSV file with no column names. ML will be used to create categories for the data and group up alike data points into those categories (clustering). 
+
+It can also use multiple data points that can be used together to create associations that can be used by ML to make recommendations based on a number of data points.
+
+### Transfer Learning
+
+Allows another machine learning model to make use of the results from another machine learning model. For example using one model to determine the type of car in a photo and then sending that result to another model to determine if the car has a chip in the windscreen that needs fixing or it's missing a wing mirror.
+
+### Reinforcement Learning
+
+Teaching a model to learn by repeating something, such as playing a game until it gets good at it. Also called skill acquisition and real-time learning.
 
 ## ML Framework
 
@@ -34,6 +51,8 @@ Data modelling steps:
 ### 1. Problem Definition: What problem are you looking to solve?
 
 Is machine learning the right approach? If not, don't use it.
+
+If ML is the right thing, you then need to decide which type of learning (supervised, unsupervised, transfer or reinforcement) you should use based on the problem you are needing to solve.
 
 ### 2. Data
 
