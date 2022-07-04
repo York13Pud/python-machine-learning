@@ -11,14 +11,46 @@ Reference: Learning started on Friday, first of July 2022 (01/07/2022).
 
 ![AI, DS and ML](/assets/images/notes/001-what-is-ai-ds-ml.png)
 
-## ML Framework (High Level)
-
-![ML Framework](/assets/images/notes/002-ml-framework.png)
-
 ## Types of MAchine Learning
 
-![ML Types](/assets/images/notes/003-ml-types.png)
+![ML Types](/assets/images/notes/002-ml-types.png)
 
 - Supervised Learning: Using data that has structure / labels, such as a spreadsheet, CSV file or database.
 - Unsupervised Learning: Using data that has no defined structure / labels, such as a CSV file with no column names. ML will be used to create categories for the data and group up alike data points (clustering). It can also use multiple data points that can be used together to create associations that can be used by ML to make recommendations based on a number of data points.
 - Reinforcement: Teaching a model to learn by repeating something, such as playing a game until it gets good at it. Also called skill acquisition and real-time learning.
+
+## ML Framework
+
+![ML Framework](/assets/images/notes/003-ml-framework.png)
+
+The three main stages are:
+
+- Data collection - Where will the data come from?
+- Data modelling - This is the main focus of the machine learning framework  and has six steps.
+- Deployment
+
+Data modelling steps:
+
+### 1. Problem Definition: What problem are you looking to solve?
+
+Is machine learning the right approach? If not, don't use it.
+
+### 2. Data
+
+What data is available (structured (xls) or unstructured (images for example)).
+
+### 3. Evaluation
+
+What is the success criteria? For example, the model must be 95% accurate at predicting heart disease.
+
+### 4. Features
+
+What do you know about the data? For example, if a scientific study shows that weight over x leads to a higher chance of heart disease, you can use that as part of the algorithm.
+
+### 5. Modelling
+
+Which model (supervised, unsupervised or reinforcement) should you use?
+
+### 6. Experimentation
+
+What have you tried and what could you try?
