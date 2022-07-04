@@ -10,3 +10,10 @@ Reference: Learning started on Friday, first of July 2022 (01/07/2022).
 - Deep Learning: An algorithm used in machine learning.
 
 ![AI, DS and ML](/assets/images/notes/001-what-is-ai-ds-ml.png)
+
+## ML Framework (High Level)
+
+![ML Framework](/assets/images/notes/002-ml-framework.png)
+
+## Types of MAchine Learning
+
