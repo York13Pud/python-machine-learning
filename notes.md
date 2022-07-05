@@ -118,8 +118,33 @@ An example of this could be changing the temperature you use to cook something, 
 
 ![Modelling Stages Final](/assets/images/notes/009-modelling-stages.png)
 
+Results from the training and test data sets should be close to each other within a small margin of different.
 
+![Over and Under Fitting](/assets/images/notes/010-over-under-fitting.png)
+
+If the training results performance is higher than the tests performance, this is called underfitting. The opposite of this (Test is higher than training) is called overfitting.
+
+The ideal situation is called balanced. This is in between under and over fitting.
+
+![Balanced Fitting](/assets/images/notes/011-balanced.png)
+
+Data leakage occurs when data leaks between the steps. For example, data in the training data is also present in the test data.
+
+Data mismatch is where you have different data in the training and testing sets.
+
+![Under / Over Fitting Fixes](/assets/images/notes/012-fitting-fixes.png)
+
+Things to Remember:
+
+- Avoid over and under fitting
+- Keep the test set separate
+- Compare apples to apples
+- Once best performance metric does not equal the best model
 
 ### 6. Experimentation
 
 What have you tried and what could you try?
+
+## Tools to Use
+
+![Tools](/assets/images/notes/013-tools.png)
