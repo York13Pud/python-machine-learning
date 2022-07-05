@@ -56,15 +56,33 @@ If ML is the right thing, you then need to decide which type of learning (superv
 
 ### 2. Data
 
-What data is available (structured (xls) or unstructured (images for example)).
+What data is available (structured (xls/csv for example) or unstructured (images or text for example)).
+
+In addition, there is static data, meaning data that doesn't change its values or schema. This is the type of data you typically start with whilst starting out in data science.
+
+Streaming data is data that changes constantly. For example, stock prices.
+
+A typical starter data science workflow will look like the below. 
+
+![DS Workflow](/assets/images/notes/004-ds-typical-workflow.png)
 
 ### 3. Evaluation
 
 What is the success criteria? For example, the model must be 95% accurate at predicting heart disease.
 
+![Types of Metrics](/assets/images/notes/005-metric-types.png)
+
 ### 4. Features
 
 What do you know about the data? For example, if a scientific study shows that weight over x leads to a higher chance of heart disease, you can use that as part of the algorithm.
+
+![Features of Data](/assets/images/notes/006-features-of-data.png)
+
+- Numerical features: Data that is numerical.
+- Categorical features: Data that can be categorised, such as gender.
+- Derived features: Data that is created from existing data. For example, adding two columns together, with the result stored in a column you created.
+
+Feature coverage is where samples of data have the same data points (columns for example) filed in. If not, this can skew the results in a model and may mean that some data needs to be removed, which can result in a model that doesn't work. The fix for that is to get more data, ideally the data points that were missing.
 
 ### 5. Modelling
 
