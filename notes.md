@@ -24,7 +24,7 @@ Using data that has structure, such as a spreadsheet, CSV file or database and w
 
 ### Unsupervised Learning
 
-Using data that has no defined structure / labels, such as a CSV file with no column names. ML will be used to create categories for the data and group up alike data points into those categories (clustering). 
+Using data that has no defined structure / labels, such as a CSV file with no column names. ML will be used to create categories for the data and group up alike data points into those categories (clustering).
 
 It can also use multiple data points that can be used together to create associations that can be used by ML to make recommendations based on a number of data points.
 
@@ -62,7 +62,7 @@ In addition, there is static data, meaning data that doesn't change its values o
 
 Streaming data is data that changes constantly. For example, stock prices.
 
-A typical starter data science workflow will look like the below. 
+A typical starter data science workflow will look like the below.
 
 ![DS Workflow](/assets/images/notes/004-ds-typical-workflow.png)
 
@@ -87,6 +87,38 @@ Feature coverage is where samples of data have the same data points (columns for
 ### 5. Modelling
 
 Which model (supervised, unsupervised or reinforcement) should you use?
+
+There are three parts to modelling:
+
+1. Choosing and training a model
+2. Tuning a model
+3. Model comparison
+
+#### Choosing and training a model
+
+![Model Split](/assets/images/notes/007-model-split.png)
+
+Generalisation is the ability for a machine learning model to perform well in a data set it hasn't seen before. Think of it like an exam, you go over the course materials (training set), you then do a practice exam (validation set) and then do the final exam (test set) with the final exam taking elements from the validation and test sets to hopefully pass.
+
+![Model Split Example](/assets/images/notes/008-model-split-2.png)
+
+When training models, start with a small subset of the data to see how it goes. All being well, add more data and do it again. If not, perhaps you can change the model you're using.
+
+Don't be afraid to experiment.
+
+#### Tuning a model
+
+An example of this could be changing the temperature you use to cook something, along with the time it should take to cook.
+
+- ML models have hyperparameters you can adjust
+- the first results of a model are not the last
+- Tuning can take place on training or validation data sets
+
+#### Model comparison
+
+![Modelling Stages Final](/assets/images/notes/009-modelling-stages.png)
+
+
 
 ### 6. Experimentation
 
