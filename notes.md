@@ -148,3 +148,13 @@ What have you tried and what could you try?
 ## Tools to Use
 
 ![Tools](/assets/images/notes/013-tools.png)
+
+### Software Distribution Options
+
+- Anaconda: Big installer, one and done.
+- Mini-Conda: Smaller installer with less installed by default. This will be what is used for the course.
+
+### Package Manager Options
+
+- Conda: It is a CLI package manager for both Anaconda and Mini-Conda. This will be what is used for the course.
+- Anaconda Navigator: A GUI package manager.
