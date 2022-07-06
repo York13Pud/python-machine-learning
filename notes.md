@@ -169,6 +169,8 @@ Once installed, open a terminal and you will see base as the source environment.
 
 ## Using Mini-Conda and Conda
 
+### Create New Environment
+
 Create a new conda (virtual) environment, with packages put in ./env and install a list of packages.
 
 ``` console
@@ -182,6 +184,8 @@ conda create --name sample-project pandas numpy matplotlib scikit-learn
 ```
 
 Be aware though that using --name will put it into the location you installed miniconda to.
+
+### Activate and Deactivate a New Environment
 
 To activate the environment, run either:
 
@@ -201,4 +205,18 @@ To deactivate an env, run
 
 ``` console
 conda deactivate
+```
+
+### Install / Uninstall Additional Packages
+
+Install packages:
+
+``` console
+conda install package-1 package-2
+```
+
+Remove packages:
+
+``` console
+conda remove package-1 package-2
 ```
