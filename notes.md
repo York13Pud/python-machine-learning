@@ -158,3 +158,47 @@ What have you tried and what could you try?
 
 - Conda: It is a CLI package manager for both Anaconda and Mini-Conda. This will be what is used for the course.
 - Anaconda Navigator: A GUI package manager.
+
+### Installing Mini-Conda
+
+Download it and go next, next, next and finish!
+
+### Using Conda
+
+Once installed, open a terminal and you will see base as the source environment. Mini-Conda creates an environment called base by default. To get back to the normal environment, use `source ~/.zshrc` in the cli.
+
+## Using Mini-Conda and Conda
+
+Create a new conda (virtual) environment, with packages put in ./env and install a list of packages.
+
+``` console
+conda create --prefix ./env pandas numpy matplotlib scikit-learn
+```
+
+Another option to create a conda environment is to use --name instead.
+
+``` console
+conda create --name sample-project pandas numpy matplotlib scikit-learn
+```
+
+Be aware though that using --name will put it into the location you installed miniconda to.
+
+To activate the environment, run either:
+
+``` console
+# If you used the --prefix to create the env
+conda activate /path/to/env
+```
+
+Or
+
+``` console
+# If you used the --name to create the env
+conda activate name-of-env
+```
+
+To deactivate an env, run
+
+``` console
+conda deactivate
+```
