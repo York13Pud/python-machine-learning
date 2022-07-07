@@ -221,7 +221,7 @@ Remove packages:
 conda remove package-1 package-2
 ```
 
-### Exporting Conda Environment
+### Exporting a Conda Environment
 
 Similar process 
 
@@ -229,6 +229,6 @@ Similar process
 conda env export --prefix ./Desktop/project_1/env > environment.yml
 ```
 
-### Create Conda Environment from an Export
+### Create a Conda Environment from an Export
 
 conda env create --file environment.yml --name env_from_file
