@@ -220,3 +220,15 @@ Remove packages:
 ``` console
 conda remove package-1 package-2
 ```
+
+### Exporting Conda Environment
+
+Similar process 
+
+``` console
+conda env export --prefix ./Desktop/project_1/env > environment.yml
+```
+
+### Create Conda Environment from an Export
+
+conda env create --file environment.yml --name env_from_file
