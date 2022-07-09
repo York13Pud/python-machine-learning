@@ -240,4 +240,3 @@ Pandas is used for data analysis. It is:
 - Simple to use
 - Integrate with other Python tools
 - Helps to manipulate data for use with machine learning tools
-
